@@ -1,9 +1,17 @@
 body {
-    background-image: url("station.jpg");
+    background-image: url("blocks.jpg");
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 h1 {
@@ -29,10 +37,14 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: #2a52be;
 }
 
 #save-btn {
-    background: darkgreen;
+    background:#008080;
+}
+
+#save-el {
+    font-weight: bold;
 }
 
